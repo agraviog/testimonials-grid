@@ -1,0 +1,113 @@
+/* global changes */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 246, 248);
+  font-family: "DM Sans", sans-serif;
+}
+
+.grid {
+  max-width: 1100px;
+  display: grid;
+  gap: 24px;
+}
+
+.profile-wrapper {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.round {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.round-daniel {
+  background-image: url(/images/image-daniel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9666d9;
+}
+
+.round-jonathan {
+  background-image: url(/images/image-jonathan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.round-kira {
+  background-image: url(/images/image-kira.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.round-jeanette {
+  background-image: url(/images/image-jeanette.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.round-patrick {
+  background-image: url(/images/image-patrick.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #9666d9;
+}
+
+.item {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: white;
+  align-self: stretch;
+}
+
+.daniel {
+  background-color: #6e3dbb;
+  color: white;
+}
+
+.jonathan {
+  background-color: #49556b;
+  color: white;
+}
+
+.patrick {
+  background-color: #18202d;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

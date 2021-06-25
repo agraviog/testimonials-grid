@@ -1,0 +1,64 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    padding: 64px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 246, 248);
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .kira {
+    order: 9999;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    padding: 64px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 246, 248);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .kira {
+    order: 9999;
+  }
+}
+
+@media screen and (min-device-width: 1025px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    height: 100vh;
+    padding: 0 32px 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 246, 248);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .daniel {
+    grid-column: span 2;
+  }
+
+  .kira {
+    grid-row: span 2;
+  }
+
+  .patrick {
+    grid-column: span 2;
+  }
+}
